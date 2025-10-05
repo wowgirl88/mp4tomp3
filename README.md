@@ -1,4 +1,3 @@
-```markdown
 # MP4 to MP3 Converter
 
 A simple Python script that converts MP4 video files to MP3 audio files using FFmpeg.
@@ -20,15 +19,10 @@ A simple Python script that converts MP4 video files to MP3 audio files using FF
 **Windows:**
 - Download from https://ffmpeg.org/download.html
 - Add to system PATH or place ffmpeg.exe in the same directory as the script
-
-**macOS:**
-```bash
-brew install ffmpeg
-```
-
 **Linux (Ubuntu/Debian):**
 ```bash
 sudo apt update
+sudo apt upgrade
 sudo apt install ffmpeg
 ```
 
@@ -75,4 +69,3 @@ The script handles various error scenarios:
 ## License
 
 This script is provided as-is for educational and personal use.
-```
